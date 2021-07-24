@@ -48,7 +48,7 @@ public class TestBase extends AbstractTestNGCucumberTests{
 	@AfterSuite(groups = "regression")
 	public void CloseDriver()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 	public void ScreenshotonFailure(ITestResult results)
